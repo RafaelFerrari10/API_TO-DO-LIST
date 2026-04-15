@@ -1,9 +1,9 @@
 const createTask = (id, title) => {
-    return{
+    return {
         id,
         title,
         completed: false
     };
 };
-
+ 
 module.exports = { createTask };
